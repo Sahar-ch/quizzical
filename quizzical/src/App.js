@@ -5,13 +5,11 @@ import Quiz from "./Quiz";
 const App = () => {
   const [startQuiz, setStartQuiz] = useState(false);
 
-  const clickHandler = () => {
+  const start = () => {
     setStartQuiz(true);
   };
 
-  return (
-    <div>{startQuiz ? <Quiz /> : <Main onClickHandler={clickHandler} />}</div>
-  );
+  return <div>{startQuiz ? <Quiz /> : <Main onClickHandler={start} />}</div>;
 };
 
 export default App;

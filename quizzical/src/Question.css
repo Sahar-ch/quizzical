@@ -1,0 +1,21 @@
+p {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+button {
+  outline: none;
+  margin: 5px;
+  border-radius: 10px;
+  border: none;
+  height: 22px;
+  border: 1px solid #343f71;
+}
+.buttons {
+  margin-left: 50px;
+}
+hr {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 8px;
+}
